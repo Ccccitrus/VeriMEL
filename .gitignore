@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Experiment artefacts
+work/
+runs/
+logs/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+
+# Data and weights (not shipped)
+data/
+clipmodel/
+third_party/MEL-M3EL-main/
+yolov8x.pt
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
